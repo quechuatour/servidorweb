@@ -1,5 +1,5 @@
 /*@license
-Archivos patentados por PUBLINET COMPANY S.A con RUC 20407814551 en Indecopi - Perú
+Archivos patentados por PUBLINET COMPANY S.A con RUC 20407814551 en Indecopi - PerÃº
 Todos los Derechos Reservados, uso exclusivo para todos los clientes de la mencionada empresa.
 
 IMPORTANTE!!
@@ -57,7 +57,7 @@ img, object, embed, video {
 .gridcab {
 /*	background-image: url(../images/backgroundsup.jpg);
 	background-repeat: repeat-x repeat-y;*/
-	background-color:#0080ff;
+	background-color:#FFF;
 	clear: none;
 	float: none;
 	width: 100%;
@@ -300,7 +300,7 @@ img, object, embed, video {
 
 #inf1 {
 /*	border-bottom: 1px solid #9D8E7D;*/
-	background-color:#D5AB2F;
+	background-color:#0080ff;
 	color:#FFF;
 	display:block;
 	padding: 1.5%;
