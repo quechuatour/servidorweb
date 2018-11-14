@@ -93,8 +93,8 @@
   text-align: right;
 }
 #cssmenu > ul > li > a {
-   color: #FFF;
-  font-size: 16px; /*TAMAÑO DE LETRA*/
+   color: #000000;
+  font-size: 16px; /*TAMAÃ‘O DE LETRA*/
   -webkit-transition: color .2s ease;
   -moz-transition: color .2s ease;
   -ms-transition: color .2s ease;
@@ -109,10 +109,10 @@
 }
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li.active > a {
-  	color: #FFF; /* menus color over*/
+  	color: #000000; /* menus color over*/
 }
 #cssmenu > ul > li.has-sub > a {
-	color:#FFF;
+	color:#000000;
  	padding-right: 20px;
 }
 #cssmenu > ul > li.has-sub > a::after {
