@@ -1,0 +1,3892 @@
+
+*{border:0;margin:0;padding:0;} 
+/*
+@font-face
+{
+    font-family:"Century Gothic";
+    src: url('fuentes/gothic.ttf'), url('fuentes/gothic.eot');
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 12px;
+    text-align:center;
+    font-family: Arial, sans-serif;
+    }
+#contenido {
+    margin: 0 auto;
+    width: 1000px;
+    background: #FFFFFF;
+    border-left:2px solid #FF9900;
+    border-right:2px solid #FF9900;
+    }
+#top_contenido {
+    width:1000px;
+    line-height:22px;
+    height:22px;
+    background:url(img/m_fondo_02.jpg) no-repeat;
+    }
+.bottom_contenido {
+    height:16px;
+    clear:both;
+    }
+#cabecera {
+    background: #FFFFFF;
+    height: 108px; 
+    text-align:center;
+    clear:both;
+    }
+#titulo {
+    text-align:left;
+    width:265px;
+    float: left;
+    margin-top:9px;
+    margin-left:10px;
+}
+#titulo h2 {
+    font-size: 10px;
+    text-align:left;
+    font-weight:bold;
+    color: black;
+    letter-spacing:0.2px;
+    }
+#derecha_cabecera
+{
+    width:696px;
+    float:right;
+}
+#banner {
+    margin-top: 25px;
+    width: 484px;
+    text-align:left;
+    float: left;
+    }
+#bandera {
+    /* margin-top: 10px; */
+    margin-top: 25px;
+    float:right;
+    text-align:left;
+    width:205px;
+}
+#bandera #estas_en
+{
+    background:url(img/m_fondo_01.jpg) no-repeat top left;
+    line-height:25px;
+    color:#ffffff;
+    font-size:10px;
+    font-weight:bold;
+    text-indent:9px;
+}
+#bandera #estas_en img
+{
+    vertical-align:top;
+    padding-left:15px;
+}
+#bandera #ver_paises
+{
+    width:198px;
+    /*
+    text-indent:9px;
+    */
+    font-size:10px;
+    color:#8b8b8b;
+    line-height:25px;
+    margin-top:6px;
+    border:1px solid #ff9900;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#bandera #ver_paises span.uno
+{
+    display:inline-block;
+    width:30px;
+    text-align:center;
+}
+#bandera #ver_paises span.dos
+{
+    display:inline-block;
+    width:10px;
+    text-align:center;
+}
+#bandera #ver_paises img
+{
+    vertical-align:top;
+    margin-left:2px;
+}
+#bandera #ver_paises img.bandera_inactiva
+{
+    opacity:0.5;
+    filter: alpha(opacity = 50);
+}
+#bandera #ver_paises img.fl
+{
+    padding-left:3px;
+}
+#bandera #ver_paises img.fl2
+{
+    padding-left:9px;
+}
+#top_contenido h1, #top_contenido span {
+    font-weight:normal;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+#pie {
+    clear:both;
+    height:128px;
+    background:url(img/pie-peru.jpg) no-repeat top left;
+    }
+#pie1
+{
+    text-align:right;
+    clear:both;
+    height:31px;
+    line-height:31px;
+    font-size:9px;
+    color:#8b8b8b;
+    margin-right:38px;
+}
+#datos_pie
+{
+    margin-top:39px;
+    margin-left:20px;
+    line-height:16px;
+    width:280px;
+    float:left;
+    color:#ffffff;
+    text-align:left;
+    font-size:11px;
+}
+#enlaces_pie
+{
+    float:right;
+    width:650px;
+}
+#enlaces_pie p
+{
+    clear:both;
+}
+#enlaces_pie p, #enlaces_pie p a
+{
+    font-size:11px;
+    color:#ffffff;
+}
+#enlaces_pie p a:hover
+{
+    text-decoration:underline;
+}
+#enlace_tw
+{
+    position:absolute;
+    margin-top:10px;
+    margin-left:473px;
+    display:block;
+    width:38px;
+    height:38px;
+    background:url(img/m_icono_twitter.jpg) no-repeat top left;
+}
+#enlace_fb
+{
+    position:absolute;
+    margin-top:10px;
+    margin-left:530px;
+    display:block;
+    width:38px;
+    height:38px;
+    background:url(img/m_icono_facebook.jpg) no-repeat top left;
+}
+#enlace_google
+{
+    position:absolute;
+    margin-top:10px;
+    margin-left:587px;
+    display:block;
+    width:38px;
+    height:38px;
+    background:url(img/m_icono_google.jpg) no-repeat top left;
+}
+#enlaces_pie2
+{
+    margin-right:20px;
+    margin-top:70px;
+    text-align:right;
+}
+#izquierda {
+    float: left;
+    width: 215px; 
+    }
+#menu h3, #alta_boletin h3, #top_franquicia h3, #insertar_franquicia h3 {
+    font-weight: bold;
+    text-indent:10px;
+    width: 200px;
+    height:22px;
+    line-height:22px;
+    text-align: left;
+    font-size:11px;
+    color: #ffffff;
+    background: url(img/m_encabezado.jpg) no-repeat;
+    margin-bottom:2px;
+    }
+#menu {
+    font-size:12px;
+    margin: 0 auto;
+    width: 200px; 
+    text-align:left;
+    text-indent:4px;
+    }
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    width:200px;
+    }
+#menu ul a, #menu ul a:visited, #menu ul a:active {
+    margin-bottom:2px;
+    text-transform:uppercase;
+    text-decoration:none;
+    display:block;
+    width:200px;
+    height:20px;
+    line-height:20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: url(img/m_seccion.jpg) no-repeat;
+}
+span.menu_estrella
+{
+    float:right;
+    margin-top:-3px;
+    width:46px;
+    height:26px;
+    display:block;
+    background: url(img/m_icono_estrella.png) no-repeat !important;
+    background: url(img/m_icono_estrella.gif) no-repeat;
+}
+#menu ul a:hover, #menu ul a.resaltado {
+    color: #FF9900;
+    background: #ffffff;
+}
+#alta_boletin
+{
+    width:200px;
+    margin:22px auto 0;
+}
+#alta_boletin div
+{
+    margin-top:-3px;
+    width:198px;
+    height:60px;
+    border:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#alta_boletin p input
+{
+    color:#858585;
+    width:178px;
+    height:20px;
+    line-height:20px;
+    margin:10px auto 0px;
+    border:1px solid #cdcdcd;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    font-size:9px;
+}
+#alta_boletin input.boton
+{
+    margin-left:138px;
+    font-weight:bold;
+    font-size:11px;
+    color:#d8251e;
+    background:#ffffff;
+    text-decoration:underline;
+    cursor:pointer;
+    height:22px;
+    line-height:22px;
+    width:52px;
+    text-indent:15px;
+    background: url(img/m_flecha.jpg) no-repeat 0px 1px;
+    font-family: "Century Gothic", sans-serif;
+}
+#alta_boletin input.boton:hover
+{
+    text-decoration:none;
+}
+#espacio_top1 {
+    margin:0px; padding:0px; clear:both;
+    height: 12px !important;
+    width:10px;
+    height:auto;
+}
+#top_franquicia div {
+    margin-top:-3px;
+    width:198px;
+    height:424px;
+    border:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#top_franquicia div img {
+    margin-top: 12px;
+    }
+#top_franquicia {
+    margin: 22px auto 0px;
+    width: 200px;
+    }
+#sectores h3 {
+    text-indent:10px;
+    height:46px;
+    line-height:46px;
+    width: 200px;
+    text-align: left;
+    font-size:16px;
+    font-weight:bold;
+    color: #ffffff;
+    background: url(img/m_encabezado_directorio.jpg) no-repeat;
+}
+#sectores {
+    padding: 0px;
+    margin: 0 auto;
+    width: 200px; 
+    }
+#sectores ul, #columnas ul {
+    margin: 10px auto 0;
+    padding: 0px;
+    width:200px;
+    text-align:left;
+    }
+#columnas ul
+{
+    width:215px !important;
+}
+#sectores ul a, #sectores ul a:visited, #sectores ul a:active, #columnas ul a, #columnas ul a:visited, #columnas ul a:active {
+    background: url(img/fondo_sector.png) no-repeat left top!important;
+    background: url(img/fondo_sector.gif) no-repeat left top ;
+    text-indent:13px;
+    font-size:12px;
+    letter-spacing:-0.5px;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: -1px;
+    padding: 0px;
+    text-decoration:none;
+    display:block;
+    width:198px;
+    height:19px;
+    line-height:19px;
+    /*color: #8b8b8b;*/
+    color:#000000;
+    font-weight: normal;
+    border:1px solid #fb9004;
+    background: #ffffff;
+    -moz-border-radius-topright:14px;
+    border-top-right-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#columnas ul a, #columnas ul a:visited, #columnas ul a:active {
+    background: url(img/fondo_sector2.png) no-repeat left top!important;
+    background: url(img/fondo_sector2.gif) no-repeat left top ;
+}
+#columnas ul a, #columnas ul a:visited, #columnas ul a:active
+{
+    width:213px !important;
+}
+#sectores span, #columnas span
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-3px;
+    height:24px;
+    line-height:24px;
+    width:200px;
+    display:block;
+    background: url(img/hover_sector.png) no-repeat bottom right !important;
+    background: url(img/hover_sector.gif) no-repeat bottom right;
+}
+#columnas span
+{
+    width:215px !important;
+}
+#sectores span:hover, #columnas span:hover
+{
+    background: url(img/hover_sector.png) no-repeat top right !important;
+    background: url(img/hover_sector.gif) no-repeat top right;
+}
+#sectores ul a:hover {
+    color: #FFFFFF;
+    background: #eb651c url(img/fondo_sector.png) no-repeat left bottom!important;
+    background: #eb651c url(img/fondo_sector.gif) no-repeat left bottom ;
+}
+#columnas ul a:hover {
+    color: #FFFFFF;
+    background: #eb651c url(img/fondo_sector2.png) no-repeat left bottom!important;
+    background: #eb651c url(img/fondo_sector2.gif) no-repeat left bottom ;
+}
+/* logos */
+#hueco_logos
+{
+    height:431px;
+}
+#caja_logos #bandera_destacadas
+{
+    position:absolute;
+    margin-left:-9px;
+    margin-top:-17px;
+    z-index:99;
+    width:76px;
+    height:68px;
+    background: url(img/m_icono_destacadas.png) no-repeat !important;
+    background: url(img/m_icono_destacadas.gif) no-repeat;
+}
+#caja_logos {
+    position:absolute;
+    top:130px;
+    margin-left:229px;
+    width:541px;
+}
+#caja_logos h3
+{
+    text-indent:50px;
+    height:42px;
+    line-height:42px;
+    width: 541px;
+    text-align: left;
+    font-size:16px;
+    font-weight:bold;
+    color: #ffffff;
+    background: url(img/m_encabezado_f_destacadas.jpg) no-repeat;
+}
+
+/*
+    anythingSlider v1.2
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+
+.anythingSlider                         { width: 539px; height: 370px; position: relative; margin: 0 auto; 
+    border:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    behavior: url(pie/PIE.htc);
+}
+.anythingSlider .wrapper                { width: 100%; overflow: hidden; height: 424px; margin: 0; position: absolute; top: 0; left: 0; }
+
+                                       /* Width below is max for Opera */
+.anythingSlider .wrapper ul             { width: 32700px; list-style: none; position: absolute; top: 0; left: 0;  margin: 0; }
+.anythingSlider ul li                   { display: block; float: left; padding: 0; height: 424px; width: 541px; margin: 0; }
+.anythingSlider .arrow                  { display: block; height: 47px; width: 43px; 
+    background-image: url(img/flecha.png)!important;
+    background-image: url(img/flecha.gif);
+    background-image: no-repeat 0 0;
+    text-indent: -9999px; position: absolute; top: 158px; cursor: pointer; z-index:99; }
+.anythingSlider .forward                { background-position: top left; right: -22px; }
+.anythingSlider .back                   { background-position: top right; left: -22px; }
+/*
+.anythingSlider .forward:hover          { background-position: 0 -200px; }
+.anythingSlider .back:hover             { background-position: -67px -200px; }
+*/
+
+#thumbNav                               { position: relative; top: 221px; text-align: center; }
+#thumbNav a                             { color: black; font: 11px/18px Georgia, Serif; display: inline-block; padding: 2px 8px; height: 18px; margin: 0 5px 0 0; background: #c58b04 url(error.html) repeat-x; text-align: center; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#thumbNav a:hover                       { background-image: none; }
+#thumbNav a.cur                         { background: #e0a213; }
+
+#start-stop                             { background: green; background-image: url(error.html); background-repeat: repeat-x; color: white; padding: 2px 5px; width: 40px; text-align: center; position: absolute; right: 45px; top: 223px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+#start-stop.playing                     { background-color: red; }
+#start-stop:hover                       { background-image: none; }
+#start-stop
+{
+    display:none;
+}
+/*
+  Prevents
+*/
+.anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
+.anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }
+
+#caja_logos table
+{
+    border-collapse:collapse;
+}
+#caja_logos td
+{
+    height:120px;
+    width:135px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/*fin logos */
+#entrevistas_index
+{
+    margin:0 auto;
+    width:541px;
+    margin-top:20px;
+}
+#entrevista_derecha
+{
+    width:264px;
+    float:right;
+}
+#entrevista_izquierda
+{
+    width:264px;
+    float:left;
+}
+#entrevista_derecha_arriba, #entrevista_izquierda_arriba
+{
+    width:264px;
+    background: url(img/m_encabezado_entrevista_arriba.jpg) no-repeat top;
+    height:114px;
+}
+#entrevista_derecha_arriba img, #entrevista_izquierda_arriba img
+{
+    float:left;
+    background:#ffffff;
+    padding:2px;
+    border:1px solid #fb9004;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#entrevista_derecha_arriba h3, #entrevista_izquierda_arriba h3, #entrevista_derecha_arriba h2, #entrevista_izquierda_arriba h2
+{
+    text-align:left;
+    float:right;
+    width:165px;
+    height:22px;
+    line-height:22px;
+    font-size:12px;
+    color:#ffffff;
+}
+#entrevista_derecha_arriba .leer_mas, #entrevista_izquierda_arriba .leer_mas
+{
+    letter-spacing:-1.1px;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:11px;
+    color:#ffffff;
+    float:right;
+    width:45px;
+    height:19px;
+    line-height:19px;
+    background: url(img/m_entrevistas_leer.png) no-repeat;
+}
+#entrevista_derecha_arriba .leer_mas:hover, #entrevista_izquierda_arriba .leer_mas:hover
+{
+    text-decoration:none;
+}
+#entrevista_derecha_abajo .icono_mas, #entrevista_izquierda_abajo .icono_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-10px;
+    margin-left:232px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+#entrevista_derecha_arriba h4, #entrevista_izquierda_arriba h4
+{
+    margin-top:12px;
+    text-align:left;
+    float:right;
+    width:165px;
+    height:22px;
+    line-height:22px;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+}
+#entrevista_derecha_arriba span, #entrevista_izquierda_arriba span
+{
+    display:block;
+    text-align:left;
+    float:right;
+    width:165px;
+    height:18px;
+    line-height:18px;
+    font-size:12px;
+    color:#3c3c3c;
+    font-weight:normal;
+}
+#entrevista_derecha_abajo .nombre_franquicia_entrevista, #entrevista_izquierda_abajo .nombre_franquicia_entrevista
+{
+    width:264px;
+    text-align:center;
+    height:22px;
+    line-height:20px;
+    font-size:12px;
+    color:#ffffff;
+    font-weight:bold;
+    background: url(img/m_encabezado_entrevista_abajo.jpg) no-repeat top;
+}
+#entrevista_derecha_abajo, #entrevista_izquierda_abajo
+{
+    width:264px;
+}
+#entrevista_derecha_abajo .contenido_entrevista, #entrevista_izquierda_abajo .contenido_entrevista
+{
+    text-align:justify;
+    font-size:12px;
+    color:#3c3c3c;
+    width:262px;
+    height:184px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#entrevista_derecha_abajo p, #entrevista_izquierda_abajo p
+{
+    padding:0px 20px;
+}
+#entrevistas_index .borde_entrevista_arriba
+{
+    width:172px;
+    float:right;
+    height:72px;
+    border-right:1px solid #fb9004;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#entrevistas_index em.abrir_comillas
+{
+    padding:8px 0;
+    margin:0 auto;
+    display:block;
+    width:242px;
+    height:12px;
+    background: url(img/m_comillas_open.jpg) no-repeat left;
+}
+#entrevistas_index em.cerrar_comillas
+{
+    padding:8px 0;
+    margin:0 auto;
+    display:block;
+    width:242px;
+    height:12px;
+    background: url(img/m_comillas_close.jpg) no-repeat right;
+}
+#entrevista_derecha_abajo table, #entrevista_izquierda_abajo table
+{
+    clear:both;
+}
+#entrevista_derecha_abajo td, #entrevista_izquierda_abajo td
+{
+    vertical-align:middle;
+    height:160px;
+}
+#entrevista_derecha_abajo .contactar_entrevista, #entrevista_izquierda_abajo .contactar_entrevista
+{
+    letter-spacing:-1.1px;
+    font-weight:bold;
+    font-size:11px;
+    text-indent:6px;
+    text-decoration:underline;
+    color:#ffffff;
+    float:right;
+    display:block;
+    height:19px;
+    line-height:19px;
+    width:95px;
+    background: url(img/m_entrevista_contactar.png) no-repeat !important;
+    background: url(img/m_entrevista_contactar.gif) no-repeat;
+}
+#entrevista_derecha_abajo .contactar_entrevista:hover, #entrevista_izquierda_abajo .contactar_entrevista:hover
+{
+    text-decoration:none;
+}
+#segunda_zona_index
+{
+    padding-top:14px;
+    clear:both;
+}
+#segunda_izquierda
+{
+    width:596px;
+    float:left;
+    margin-left:7px;
+    margin-bottom:15px;
+}
+#articulo_sectorial_index
+{
+    width:596px;
+}
+.noticias #articulo_sectorial_index
+{
+    margin:0 auto;
+    width:541px;
+}
+#articulo_index
+{
+    width:596px;
+    margin-top:18px;
+}
+.noticias #articulo_index
+{
+    margin:25px auto 0;
+    width:541px;
+}
+#articulo_sectorial_index h3, #articulo_sectorial_index h1
+{
+    width:596px;
+    height:42px;
+    line-height:42px;
+    background: url(img/m_encabezado_articulo_sectorial.jpg) no-repeat;
+    color:#ffffff;
+    font-size:16px;
+    text-align:left;
+    font-weight:bold;
+    text-indent:63px;
+}
+.noticias #articulo_sectorial_index h3, .noticias #noticias_index #articulo_sectorial_index h3, .noticias #articulo_sectorial_index h1, .noticias #noticias_index #articulo_sectorial_index h1
+{
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+    width:541px;
+    background: url(img/m_encabezado_articulo_sectorial2.jpg) no-repeat;
+}
+#articulo_index h3, #articulo_index h1
+{
+    width:596px;
+    height:42px;
+    line-height:42px;
+    background: url(img/m_encabezado_articulo.jpg) no-repeat;
+    color:#ffffff;
+    font-size:16px;
+    text-align:left;
+    font-weight:bold;
+    text-indent:63px;
+}
+.noticias #articulo_index h3, .noticias #articulo_index h1, .noticias #noticias_index #articulo_index h3, .noticias #noticias_index #articulo_index h1
+{
+    height:22px;
+    line-height:22px;
+    font-size:14px;
+    width:541px;
+    background: url(img/m_encabezado_articulo2.jpg) no-repeat;
+}
+.noticias #noticias_index #articulo_index h3, .noticias #noticias_index #articulo_index h1
+{
+    text-indent:90px;
+}
+.noticias #noticias_index #articulo_sectorial_index h3, .noticias #noticias_index #articulo_sectorial_index h1
+{
+    text-indent:90px;
+}
+#noticias_index #articulo_index
+{
+    margin-top:0 !important;
+}
+#articulo_sectorial_index h6
+{
+    z-index:99;
+    margin-left:10px;
+    margin-top:-57px;
+    position:absolute;
+    width:38px;
+    height:64px;
+    background: url(img/m_icono_articulo_sectorial.png) no-repeat !important;
+    background: url(img/m_icono_articulo_sectorial.gif) no-repeat;
+}
+.noticias #articulo_sectorial_index h6
+{
+    margin-top:-39px;
+}
+#articulo_index h6
+{
+    z-index:99;
+    margin-left:7px;
+    margin-top:-50px;
+    position:absolute;
+    width:50px;
+    height:45px;
+    background: url(img/m_icono_articulo.png) no-repeat !important;
+    background: url(img/m_icono_articulo.gif) no-repeat;
+}
+.noticias #articulo_index h6
+{
+    margin-top:-25px;
+}
+#noticias_index #articulo_index h6
+{
+    margin-left:25px;
+    margin-top:-40px;
+}
+#noticias_index #articulo_sectorial_index h6
+{
+    margin-left:33px;
+    margin-top:-50px;
+}
+#articulo_sectorial_index div.div_articulo
+{
+    height:190px;
+    background: url(img/m_encabezado_sub_art_sectorial.jpg) no-repeat top;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#articulo_index div.div_articulo
+{
+    height:190px;
+    background: url(img/m_encabezado_sub_art_articulo.jpg) no-repeat top;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.noticias #articulo_sectorial_index div.div_articulo, .noticias #articulo_index div.div_articulo, .noticias .noticia_listado
+{
+    height:137px;
+    margin-top:10px;
+    background:none;
+    border:none;
+}
+.noticia_listado table
+{
+    border-collapse:collapse
+}
+#articulo_sectorial_index .tabla_img, .noticias .noticia_listado .tabla_img
+{
+    margin-top:6px;
+    margin-left:3px;
+    float:left;
+    width:239px;
+    height:179px;
+    border:1px solid #fb9004;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.noticias #articulo_sectorial_index .tabla_img, .noticias #articulo_index .tabla_img, .noticias .noticia_listado .tabla_img
+{
+    margin-top:6px;
+    margin-left:3px;
+    float:left;
+    width:167px;
+    height:126px;
+}
+.noticias .noticia_listado .tabla_img
+{
+    height:127px;
+}
+#articulo_sectorial_index .tabla_img table, #articulo_index .tabla_img table
+{
+    vertical-align:middle;
+    width:239px;
+    height:179px;
+}
+.noticias #articulo_sectorial_index .tabla_img table, .noticias #articulo_index .tabla_img table, .noticias .noticia_listado .tabla_img table
+{
+    text-align:center;
+    vertical-align:middle;
+    width:166px;
+    height:126px;
+}
+.noticias .noticia_listado .tabla_img table
+{
+    height:129px;
+    width:167px;
+}
+#articulo_sectorial_index img, #articulo_index img, .noticias .noticia_listado img
+{
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#articulo_index .tabla_img
+{
+    margin-top:6px;
+    margin-right:2px;
+    float:right;
+    width:239px;
+    height:179px;
+    border:1px solid #fb9004;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#articulo_sectorial_index table.tabla_articulo, .noticias .noticia_listado table.tabla_articulo
+{
+    float:right;
+    width:323px;
+    margin-right:20px;
+    vertical-align:middle;
+    text-align:justify;
+}
+.noticias .noticia_listado table.tabla_entera
+{
+    width:516px !important;
+}
+.noticias .noticia_listado .leer_mas_entera
+{
+    margin-left:418px !important;
+}
+#articulo_index table.tabla_articulo
+{
+    float:left;
+    width:323px;
+    margin-left:20px;
+    vertical-align:middle;
+    text-align:justify;
+}
+.noticias #articulo_index table.tabla_articulo, .noticias #articulo_sectorial_index table.tabla_articulo, .noticias .noticia_listado table.tabla_articulo
+{
+    margin-top:5px;
+    width:340px;
+}
+#articulo_sectorial_index .titulo_articulo, #articulo_index .titulo_articulo, .noticias .noticia_listado .titulo_articulo
+{
+    height:33px;
+    font-size:12px;
+    color:#ffffff;
+    font-weight:bold;
+}
+.noticias #articulo_sectorial_index .titulo_articulo a, .noticias #articulo_index .titulo_articulo a, .noticias .noticia_listado .titulo_articulo a
+{
+    color:#000000;
+    font-size:15px;
+}
+#articulo_sectorial_index .titular_articulo, #articulo_index .titular_articulo, .noticias .noticia_listado .titular_articulo
+{
+    height:130px;
+    font-size:12px;
+    color:#3c3c3c;
+}
+.noticias #articulo_sectorial_index .titular_articulo, .noticias #articulo_index .titular_articulo, .noticias .noticia_listado .titular_articulo
+{
+    height:88px;
+}
+#articulo_sectorial_index .leer_mas, .noticias .noticia_listado .leer_mas
+{
+    float:right;
+    display:block;
+    background: url(img/m_articulo_art_sec_leer.png) no-repeat !important;
+    background: url(img/m_articulo_art_sec_leer.gif) no-repeat;
+    height:21px;
+    line-height:21px;
+    width:94px;
+    color:#ffffff;
+    text-align:center;
+    text-decoration:underline;
+    font-size:11px;
+    font-weight:bold;
+}
+#articulo_index .leer_mas
+{
+    float:left;
+    display:block;
+    background: url(img/m_articulo_art_leer.png) no-repeat !important;
+    background: url(img/m_articulo_art_leer.gif) no-repeat;
+    height:21px;
+    line-height:21px;
+    width:94px;
+    color:#ffffff;
+    text-align:center;
+    text-decoration:underline;
+    font-size:11px;
+    font-weight:bold;
+}
+.noticias #articulo_sectorial_index .mas_articulos, .noticias #articulo_index .mas_articulos, .noticias #noticias_index2 .ver_mas_noticias, .noticias #noticias_index2 .ver_mas_noticias_abajo
+{
+    font-size:11px;
+    font-weight:bold;
+    color:#ffffff;
+    text-decoration:underline;
+    display:block;
+    position:absolute;
+    z-index:99;
+    margin-top:-18px;
+    margin-left:396px;
+    width:145px;
+    height:19px;
+    line-height:19px;
+    float:right;
+    background: url(img/m_boton_ver_mas_not01.png) no-repeat !important;
+    background: url(img/m_boton_ver_mas_not01.png) no-repeat;
+    text-align:left;
+    text-indent:10px;
+}
+.noticias #noticias_index2 .ver_mas_noticias
+{
+    margin-top:-7px;
+}
+.noticias #noticias_index2 .ver_mas_noticias_abajo
+{
+    margin-top:13px;
+    margin-left:400px;
+    background: url(img/m_boton_ver_mas_not02.png) no-repeat !important;
+    background: url(img/m_boton_ver_mas_not02.png) no-repeat;
+}
+.noticias #articulo_sectorial_index .icono_mas, .noticias #articulo_index .icono_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-29px;
+    margin-left:333px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+.noticias #noticias_index2 .icono_mas_abajo
+{
+    position:absolute;
+    z-index:99;
+    margin-top:3px;
+    margin-left:510px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+.noticias #articulo_index .icono_mas
+{
+    margin-left:-27px;
+}
+.noticias #articulo_sectorial_index .leer_mas, .noticias #articulo_index .leer_mas, .noticias .noticia_listado .leer_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:115px;
+    margin-left:68px;
+    width:104px;
+    height:19px;
+    line-height:19px;
+    float:left;
+    background: url(img/m_boton_leer_articulo.png) no-repeat !important;
+    background: url(img/m_boton_leer_articulo.gif) no-repeat;
+}
+#articulo_sectorial_index .leer_mas:hover, #articulo_index .leer_mas:hover, .noticias .noticia_listado .leer_mas:hover
+{
+    text-decoration:none;
+}
+.noticias .borde_abajo_noticia
+{
+    padding-bottom:15px;
+    border-bottom:1px solid #ea4e1e !important;
+}
+#noticias_index
+{
+    margin-top:18px;
+    width:596px;
+}
+.noticias #noticias_index
+{
+    margin:22px auto 0;
+    width:542px;
+}
+#noticias_index h3, #noticias_index h1
+{
+    width:596px;
+    height:22px;
+    line-height:22px;
+    background: url(img/m_encabezado_menu_noticias.jpg) no-repeat;
+    color:#ffffff;
+    font-size:12px;
+    text-align:left;
+    font-weight:bold;
+    text-indent:13px;
+}
+.noticias #noticias_index h3, .noticias #noticias_index h1
+{
+    width:542px;
+    background: url(img/m_encabezado_noticias.jpg) no-repeat;
+}
+#noticias_index2
+{
+    margin-bottom:0px;
+    width:594px;
+    height:364px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    position:relative;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.noticias #noticias_index2
+{
+    width:540px;
+    height:764px;
+}
+#noticias_index2 .icono_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-18px;
+    margin-left:564px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+.noticias #noticias_index2 .icono_mas
+{
+    margin-left:510px;
+}
+#noticias_index2 .ver_mas_noticias
+{
+    margin-top:-7px;
+    letter-spacing:-0.8px;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:11px;
+    color:#ffffff;
+    float:right;
+    width:145px;
+    height:19px;
+    line-height:19px;
+    background: url(img/m_noticias_ver_mas_not.png) no-repeat !important;
+    background: url(img/m_noticias_ver_mas_not.gif) no-repeat;
+    text-align:left;
+    text-indent:17px;
+}
+#noticias_index2 .ver_mas_noticias:hover
+{
+    text-decoration:none;
+}
+.noticia_index
+{
+    padding-top:30px;
+    height:150px;
+    background: url(img/m_fondo_noticias.jpg) no-repeat 0 30px;
+}
+.noticias .noticia_index
+{
+    background: url(img/m_fondo_noticias2.jpg) no-repeat 0 30px;
+}
+.noticia_index .tabla_noticia
+{
+    border-collapse:collapse;
+    vertical-align:middle;
+}
+.noticia_index .fecha_noticia
+{
+    height:16px;
+    line-height:16px;
+    color:#ffffff;
+    font-size:10px;
+    text-align:left;
+    text-indent:12px;
+    font-weight:normal;
+}
+.noticia_index .titulo_noticia
+{
+    height:50px;
+    color:#ffffff;
+    font-size:12px;
+    text-align:justify;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:10px;
+}
+.noticia_index .titulo_noticia a, .titulo_articulo a
+{
+    color:#ffffff;
+}
+.noticia_index .titulo_noticia a:hover, .titulo_articulo a:hover
+{
+    text-decoration:underline;
+}
+.noticia_index .titular_noticia
+{
+    height:80px;
+    color:#000000;
+    font-size:12px;
+    text-align:justify;
+    padding-left:20px;
+    padding-right:10px;
+    width:390px;
+}
+.noticia_index .imagen_noticia
+{
+    width:174px;
+    text-align:center;
+    vertical-align:top;
+}
+.noticia_index .imagen_noticia div
+{
+    margin:0 auto;
+    width:167px;
+    height:127px;
+    border:1px solid #fb9004;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.noticia_index .imagen_noticia table
+{
+    height:130px;
+    width:167px;
+    vertical-align:middle;
+    border-collapse:collapse;
+}
+.noticia_index .imagen_noticia img
+{
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#segunda_derecha
+{
+    width:363px;
+    float:right;
+    margin-right:10px;
+}
+#publicidad_index
+{
+    width:363px;
+}
+#publicidad_index h3
+{
+    background: url(img/m_encabezado_banner3.jpg) no-repeat;
+    width:363px;
+    height:22px;
+    line-height:22px;
+    text-align:left;
+    text-indent:10px;
+    font-size:13px;
+    color:#ffffff;
+}
+#publicidad_index div
+{
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    height:110px;
+}
+#franquicias_tv h3
+{
+    margin-top:7px;
+    background: url(img/m_encabezado_FTV.jpg) no-repeat;
+    width:363px;
+    height:63px;
+    line-height:85px;
+    font-size:17px;
+    text-indent:66px;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:left;
+}
+#franquicias_tv2
+{
+    height:350px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#franquicias_tv2 h4
+{
+    background: url(img/m_tv_fondo_subtitulo.png) no-repeat;
+    width:361px;
+    height:21px;
+    line-height:21px;
+    font-size:12px;
+    text-indent:15px;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:left;
+}
+#franquicias_tv2 h4 a
+{
+    font-weight:normal;
+    color:#ffffff;
+}
+#franquicias_tv2 h4 a:hover
+{
+    text-decoration:underline;
+}
+#franquicias_tv3 .icono_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-12px;
+    margin-left:14px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+#franquicias_tv4
+{
+    height:62px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#franquicias_tv3 h4, #otras_noticias_index h4
+{
+    background: url(img/m_encabezado_banner3.jpg) no-repeat;
+    width:363px;
+    height:22px;
+    line-height:22px;
+    text-align:left;
+    text-indent:42px;
+    font-size:13px;
+    color:#ffffff;
+}
+#otras_noticias_index h4
+{
+    text-indent:14px;
+}
+.noticias #otras_noticias_index h4
+{
+    background: url(img/m_encabezado_otras_noticias_peque.jpg) no-repeat;
+    width:200px;
+    height:22px;
+    line-height:22px;
+    text-align:left;
+    text-indent:14px;
+    font-size:13px;
+    color:#ffffff;
+}
+#franquicias_tv4 a
+{
+    margin-top:-10px;
+    float:right;
+    display:block;
+    background: url(img/m_tv_ir_franquicias.png) no-repeat !important;
+    background: url(img/m_tv_ir_franquicias.gif) no-repeat;
+    height:21px;
+    width:134px;
+    line-height:21px;
+    color:#ffffff;
+    text-align:center;
+    text-decoration:underline;
+    font-size:11px;
+    font-weight:bold;
+}
+#franquicias_tv4 a:hover
+{
+    text-decoration:none;
+}
+#franquicias_tv4 p
+{
+    text-align:justify;
+    font-size:11px;
+    padding:10px 10px 0 10px;
+}
+#otras_noticias_index
+{
+    margin-top:11px;
+}
+#noticias_de_franquicias h4
+{
+    margin-top:-22px;
+    background: url(img/cabecera_noticias_de_franquicias.jpg) no-repeat;
+    width:363px;
+    height:63px;
+    line-height:85px;
+    font-size:17px;
+    text-indent:66px;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:left;
+}
+#noticias_de_franquicias
+{
+    margin-top:0;
+    margin-bottom:20px;
+}
+#noticias_de_franquicias2
+{
+    height:288px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#noticias_de_franquicias table
+{
+    border-collapse:collapse;
+    vertical-align:middle;
+    padding-top:10px;
+    margin:0 7px;
+}
+#noticias_de_franquicias td
+{
+    height:95px;
+    padding:0 7px;
+}
+#noticias_de_franquicias h5 a, #noticias_de_franquicias h5
+{
+    font-size:11px;
+    font-weight:bold;
+    color:#000000;
+    text-align:justify;
+    padding-bottom:10px;
+}
+#noticias_de_franquicias h5 a:hover
+{
+    text-decoration:underline;
+}
+#noticias_de_franquicias p
+{
+    text-align:justify;
+    font-size:11px;
+    color:#3c3c3c;
+}
+#noticias_de_franquicias .borde_arriba
+{
+    border-top:1px solid #fb9004;
+}
+.noticias #otras_noticias_index
+{
+    margin: 0px auto 0;
+    width:200px;
+}
+.noticias #otras_noticias_index td
+{
+    height:169px;
+}
+#otras_noticias_index2
+{
+    height:216px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.noticias #otras_noticias_index2
+{
+    height:679px;
+    width:198px;
+}
+#otras_noticias_index table
+{
+    border-collapse:collapse;
+    vertical-align:middle;
+    padding-top:10px;
+    margin:0 7px;
+}
+#otras_noticias_index td
+{
+    height:100px;
+    padding:0 7px;
+}
+#otras_noticias_index h5 a, #otras_noticias_index h5
+{
+    font-size:11px;
+    font-weight:bold;
+    color:#000000;
+    text-align:justify;
+    padding-bottom:10px;
+}
+#otras_noticias_index h5 a:hover
+{
+    text-decoration:underline;
+}
+#otras_noticias_index p
+{
+    text-align:justify;
+    font-size:11px;
+    color:#3c3c3c;
+}
+#otras_noticias_index .borde_arriba
+{
+    border-top:1px solid #fb9004;
+}
+#centro {
+    float: right;
+    width: 785px;
+    text-align:center;
+    }
+#centro_izquierda {
+    float:left;
+    width: 570px;
+    }
+#centro_derecha {
+    width: 215px;
+    float:right;
+    }
+
+#div_grande {
+    margin: 0 auto 25px;
+    padding: 0px;
+    width: 761px;
+    text-align: center;
+    }
+#div_grande h3, #contactar h4, #div_grande h1, #contactar h1
+{
+    background: url(img/m_encabezado_f_estrella.jpg) no-repeat;
+    width:761px;
+    height:42px;
+    line-height:42px;
+    text-align:left;
+    text-indent:63px;
+    font-size:16px;
+    color:#ffffff;
+}
+#contactar h4
+{
+    text-indent:22px;
+}
+#div_grande h3#h3_directorio, #div_grande h1#h3_directorio
+{
+    text-indent:82px;
+}
+#estrella_franquicias
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-48px;
+    margin-left:-2px;
+    height:61px;
+    width:60px;
+    background: url(img/m_icono_estrella_g.png) no-repeat !important;
+    background: url(img/m_icono_estrella_g.png) no-repeat;
+}
+#directorio_franquicias
+{
+    position:absolute;
+    z-index:99;
+    margin-top:-41px;
+    margin-left:14px;
+    height:46px;
+    width:55px;
+    background: url(img/m_icono_directorio.png) no-repeat !important;
+    background: url(img/m_icono_directorio.png) no-repeat;
+}
+#contenido_div_grande {
+    margin: 0 auto;
+    text-align: center;
+    background: #FFFFFF;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#contenido_div_grande a, #contenido_div_grande a:visited {
+    color:black;
+    }
+#contenido_div_grande a:hover {
+    color:gray;
+}
+#contenido_div_grande td a img {
+    margin-bottom: -4px;
+    }
+#contenido_div_grande table {
+    border: none;
+    margin: 0px auto 10px;
+    text-align: center;
+    }
+#contenido_div_grande td {
+    padding:4px;
+    border: none;
+    width: 148px;
+    height:104px;
+    text-align: center;
+    }
+#contenido_div_grande .celda_categoria {
+    color:#3c3c3c;
+    font-weight:normal;
+    width: 148px;
+    height:9px;
+    font-size:9px;
+    position:relative;
+    top:3px;
+    }
+#columnas {
+    margin:0 auto;
+    }
+#col_i {
+    margin-left:20px;
+    float:left;
+    margin-top:30px;
+    margin-bottom:32px;
+    }
+#col_d {
+    float:right;
+    margin-top:30px;
+    margin-bottom:20px;
+    }
+#col_d ul
+{
+    margin-left:18px;
+    margin-right:20px;
+    float:left;
+}
+#insertar_franquicia
+{
+    width:200px;
+    margin:20px auto 0;
+}
+#insertar_franquicia div {
+    background: url(img/insertar-peru.jpg) no-repeat;
+    margin-top:-3px;
+    width:198px;
+    height:91px;
+    border:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#insertar_franquicia a
+{
+    display:block;
+    width:198px;
+    height:91px;
+}
+.separar
+{
+    height:12px;
+}
+#patrocinadores div {
+    margin: 0px auto 0px auto;
+    width: 164px;
+    text-align: center;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#patrocinadores div img {
+    margin: 15px auto;
+    }
+#patrocinadores {
+    float:right;
+    text-align: center;
+    margin: 0px 5px;
+    width: 166px;
+    }
+#patrocinadores h3 {
+    width: 166px;
+    height:22px;
+    line-height:22px;
+    text-align: left;
+    text-indent:11px;
+    font-size:12px;
+    color: #ffffff;
+    background: url(img/m_Patrocinadores.jpg) no-repeat;
+}
+#categoria h3, #categoria h1
+{
+    width:580px;
+    height:22px;
+    line-height:22px;
+    background: url(img/m_Sectores_03.jpg) no-repeat;
+    color:#ffffff;
+    font-size:17px;
+    text-indent:17px;
+    text-align:left;
+}
+#contenido_categoria, #categoria
+{
+    float:left;
+    width:580px;
+    margin-bottom:10px;
+}
+#categoria
+{
+    margin-left:13px;
+}
+#contenido_categoria div {
+    color:black;
+    }
+#contenido_categoria td {
+    height: 98px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:12px;
+    border:1px solid #c6c6c6;
+    -moz-border-radius:14px;
+    border-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#contenido_categoria td img {
+    margin-bottom:-4px;
+    }
+#contenido_categoria table {
+    width:100%;
+    border-collapse:separate;
+    border-spacing:6px 0;
+    clear:both;
+    }
+#contenido_categoria div td p {
+    color:#6d6d6d;
+    text-align:justify;
+    margin-left:12px;
+    margin-right:12px;
+    }
+#contenido_categoria .celda_izq {
+    width:150px;
+    }
+#contenido_categoria h4
+{
+    background: url(img/m_nombre_franquicia.jpg) no-repeat;
+    width:197px;
+    height:22px;
+    line-height:22px;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:13px;
+    float:left;
+    margin-left:5px;
+    margin-bottom:5px;
+    margin-top:20px;
+    text-indent:17px;
+    text-align:left;
+}
+#contenido_categoria .info
+{
+    background: url(img/m_mas_info.jpg) no-repeat;
+    float:right;
+    width:80px;
+    height:22px;
+    line-height:22px;
+    color:#ffffff;
+    font-size:11px;
+    margin-right:20px;
+    margin-bottom:5px;
+    margin-top:20px;
+    text-indent:10px;
+    text-align:left;
+    text-decoration:underline;
+    font-weight:bold;
+}
+#contenido_categoria .info:hover
+{
+    text-decoration:none;
+}
+#contenido_categoria .info_mas
+{
+    position:absolute;
+    z-index:99;
+    margin-top:32px;
+    margin-left:530px;
+    display:block;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+#contenido_categoria .contactar
+{
+    position:absolute;
+    z-index:99;
+    margin-left:490px;
+    margin-top:-21px;
+    display:block;
+    background: url(img/m_contactar.png) no-repeat !important;
+    background: url(img/m_contactar.gif) no-repeat;
+    height:21px;
+    line-height:21px;
+    width:83px;
+    color:#ffffff;
+    text-align:center;
+    text-decoration:underline;
+    font-size:11px;
+    font-weight:bold;
+}
+#h3_encabezado_ficha
+{
+    margin-left:15px;
+    width:758px;
+    height:22px;
+    line-height:22px;
+    background: url(img/m_encabezado_ficha.jpg) no-repeat;
+    color:#ffffff;
+    font-size:12px;
+    text-indent:17px;
+    text-align:left;
+    font-weight:bold;
+}
+#h3_encabezado_ficha h1
+{
+    display:inline;
+    font-size:14px;
+    text-transform:uppercase;
+}
+#contenido_franquicia {
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:15px;
+    float:left;
+    width: 546px;
+    height:391px;
+    text-align: center;
+    background: #FFFFFF;
+    border:1px solid #c6c6c6;
+    -moz-border-radius:14px;
+    border-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#contenido_franquicia #contenido_scroll
+{
+    margin:8px 0px 8px 0px;
+    height:375px;
+}
+#contenido_franquicia p, #contenido_div_grande p {
+    font-size:12px;
+    padding:8px;
+    text-indent:0;
+    text-align:justify;
+    color:#5c5c5c;
+    }
+#contenido_franquicia ul
+{
+    font-size:12px;
+    color:#5c5c5c;
+    list-style-type:disc !important;
+    list-style-position:outside;
+    padding-top:8px;
+    padding-left:22px;
+    padding-right:8px;
+}
+#contenido_franquicia li
+{
+    text-align:justify;
+    list-style-type:disc !important;
+    padding-bottom:8px;
+}
+    #contenido_franquicia img
+    {
+    }
+#datos_franquicia
+{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+    float:right;
+    width: 200px;
+}
+#datos_franquicia img {
+    margin:12px auto;
+    }
+#datos_franquicia table {
+    margin:0 auto;
+    text-align:center;
+    font-size:9pt;
+    width: 200px;
+    border-collapse:collapse
+    }
+#datos_franquicia #celda_logo {
+    text-align:center;
+    height:200px;
+    vertical-align:middle;
+    }
+#datos_franquicia #celda_logo img{
+    margin:0px auto;
+    padding:0px;
+    }
+#datos_franquicia strong
+{
+    color:#d82618;
+}
+#datos_franquicia p
+{
+    font-size:10px;
+    margin-bottom:6px;
+    margin-left:6px;
+    margin-right:6px;
+    text-align:justify;
+    color:#5c5c5c;
+}
+#datos_economicos div, #datos_tecnicos div
+{
+    padding-top:6px;
+    width:198px;
+    border-bottom:1px solid #c6c6c6;
+    border-left:1px solid #c6c6c6;
+    border-right:1px solid #c6c6c6;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#datos_franquicia h4
+{
+    font-size:10px;
+    font-weight:bold;
+    text-indent:6px;
+    background: url(img/m_encabezado_datos_ficha.jpg) no-repeat;
+    width:200px;
+    height:22px;
+    line-height:22px;
+    color:#ffffff;
+    text-align:left;
+}
+#formulario_franquicia, #contactar, #formulario_franquicia_peque {
+    clear:both;
+    margin:0px auto 20px;
+    text-align:center;
+    padding:0px;
+    text-indent:0px;
+    width:758px;
+    } 
+#formulario_franquicia_peque
+{
+    width:541px;
+    float:left;
+    clear:none;
+    margin:0px 0px 20px 15px;
+}
+#formulario_franquicia h4, #formulario_franquicia_peque h4 {
+    font-size:12px;
+    font-weight:bold;
+    text-indent:11px;
+    /*
+    background: url(img/m_encabezado_formulario.jpg) no-repeat;
+    */
+    width:756px;
+    height:22px;
+    line-height:22px;
+    color:#000000;
+    text-align:left;
+    border:1px solid #fb9004;
+    -moz-border-radius-topleft:14px;
+    border-top-left-radius:14px;
+    -moz-border-radius-topright:14px;
+    border-top-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#formulario_franquicia_peque h4 {
+    /*
+    background: url(img/m_encabezado_formulario_peque.jpg) no-repeat;
+    */
+    width:539px;
+}
+#campos_normales
+{
+    margin:0 auto;
+    width:756px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    /*
+    -moz-border-radius-topleft:14px;
+    border-top-left-radius:14px;
+    -moz-border-radius-topright:14px;
+    border-top-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    */
+}
+#formulario_franquicia_peque #campos_normales
+{
+    width:539px;
+}
+/*
+#campos_multiformulario, #campos_proteccion
+*/
+#campos_multiformulario
+{
+    margin:-1px auto 0;
+    width:756px;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#formulario_franquicia_peque #campos_multiformulario, #formulario_franquicia_peque #campos_proteccion
+{
+    width:539px;
+}
+#contactar #campos_normales
+{
+    border-bottom:none;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#contactar #campos_proteccion
+{
+    border-top:none;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#formulario_franquicia .fila_campos, #formulario_franquicia_peque .fila_campos, #contactar .fila_campos
+{
+    clear:both;
+}
+#formulario_franquicia_peque .fila_titulos
+{
+    clear:both;
+    height:18px;
+    line-height:18px;
+    background: url(img/fila_titulo_form.jpg) no-repeat center;
+}
+#formulario_franquicia .fila_titulos, #contactar .fila_titulos
+{
+    clear:both;
+    height:18px;
+    line-height:18px;
+    background: url(img/fila_titulo_form_grande.jpg) no-repeat center;
+}
+.fila_titulos div
+{
+    float:left;
+    height:18px;
+    line-height:18px;
+    text-align:left;
+    text-indent:8px;
+    color:white;
+    font-size:11px;
+    font-weight:bold;
+}
+.fila_campos div
+{
+
+}
+#formulario_franquicia .fila_campos div, #formulario_franquicia_peque .fila_campos div
+{
+    font-size:11px;
+}
+.fila_campos input, .fila_campos textarea, .fila_campos select
+{
+    vertical-align:middle;
+    /*
+    width:86%;
+    */
+    font-size:11px;
+    color:#5c5c5c;
+    font-family:Arial,sans-serif;
+        margin:4px 0;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    color:#5c5c5c;
+    text-indent:10px;
+    text-align:left;
+    float:left;
+    border:1px solid #000000;
+    -moz-border-radius:14px;
+    border-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.fila_campos textarea
+{
+    /*
+    width:490px !important;
+    */
+}
+#formulario_franquicia .nombre input, #formulario_franquicia .fila_titulos .nombre 
+{   
+    margin-left:10px;
+    width:320px;
+}
+#formulario_franquicia_peque .nombre input, #formulario_franquicia_peque .fila_titulos .nombre
+{
+    margin-left:10px;
+    width:225px;
+}
+/*
+#formulario_franquicia .nombre input
+{
+    width:240px;
+}
+#formulario_franquicia_peque .nombre input
+{
+    width:159px;
+}
+*/
+#formulario_franquicia .apellidos input, #formulario_franquicia .fila_titulos .apellidos
+{
+    margin-left:10px;
+    width:400px;
+}
+#formulario_franquicia_peque .apellidos input, #formulario_franquicia_peque .fila_titulos .apellidos
+{
+    margin-left:5px;
+    width:284px;
+}
+/*
+#formulario_franquicia .apellidos input
+{
+    width:295px;
+}
+#formulario_franquicia_peque .apellidos input
+{
+    width:200px;
+}
+*/
+#formulario_franquicia .correo input, #formulario_franquicia .fila_titulos .correo {
+    margin-left:10px;
+    width:388px;
+    }
+#formulario_franquicia_peque .correo input, #formulario_franquicia_peque .fila_titulos .correo {
+    margin-left:10px;
+    width:262px;
+}
+/*
+#formulario_franquicia .correo input {
+    width:230px;
+    }
+#formulario_franquicia_peque .correo input {
+    width:138px;
+    }
+*/
+#formulario_franquicia .telefono input, #formulario_franquicia .fila_titulos .telefono {
+    margin-left:10px;
+    width:160px;
+    }
+#formulario_franquicia_peque .telefono input, #formulario_franquicia_peque .fila_titulos .telefono {
+    margin-left:5px;
+    width:120px;
+    }
+/*
+#formulario_franquicia .telefono input {
+    width:80px;
+    }
+#formulario_franquicia_peque .telefono input {
+    width:50px;
+    }
+*/
+#formulario_franquicia .movil input, #formulario_franquicia .fila_titulos .movil {
+    margin-left:10px;
+    width:160px;
+    }
+#formulario_franquicia_peque .movil input, #formulario_franquicia_peque .fila_titulos .movil {
+    margin-left:5px;
+    width:120px;
+    }
+/*
+#formulario_franquicia .movil input {
+    width:100px;
+    }
+#formulario_franquicia_peque .movil input {
+    width:65px;
+    }
+*/
+#formulario_franquicia .direccion input, #formulario_franquicia .fila_titulos .direccion {
+    margin-left:10px;
+    width:733px;
+    }
+#contactar .direccion input, #contactar .fila_titulos .direccion {
+    margin-left:10px;
+    width:733px;
+    }
+#contactar .telefono input, #contactar .fila_titulos .telefono {
+    margin-left:10px;
+    width:270px;
+    }
+#contactar .mail input, #contactar .fila_titulos .mail {
+    margin-left:10px;
+    width:451px;
+    }
+#formulario_franquicia_peque .direccion input, #formulario_franquicia_peque .fila_titulos .direccion {
+    margin-left:10px;
+    width:516px;
+    }
+/*
+#formulario_franquicia .direccion input {
+    width:626px;
+    }
+#formulario_franquicia_peque .direccion input {
+    width:437px;
+    }
+*/
+#formulario_franquicia .poblacion input, #formulario_franquicia .fila_titulos .poblacion {
+    margin-left:10px;
+    width:280px;
+    }
+/*
+#formulario_franquicia .poblacion input {
+    width:190px;
+    }
+*/
+#formulario_franquicia_peque .poblacion input, #formulario_franquicia_peque .fila_titulos .poblacion {
+    margin-left:10px;
+    width:206px;
+    }
+/*
+#formulario_franquicia_peque .poblacion input {
+    width:130px;
+    }
+*/
+#formulario_franquicia .provincia input, #formulario_franquicia .fila_titulos .provincia {
+    margin-left:10px;
+    width:268px;
+    }
+/*
+#formulario_franquicia .provincia input {
+    width:165px;
+    }
+*/
+#formulario_franquicia_peque .provincia input, #formulario_franquicia_peque .fila_titulos .provincia {
+    margin-left:5px;
+    width:185px;
+    }
+/*
+#formulario_franquicia_peque .provincia input {
+    width:115px;
+    }
+*/
+#formulario_franquicia .cp input, #formulario_franquicia .fila_titulos .cp {
+    margin-left:10px;
+    width:160px;
+    }
+/*
+#formulario_franquicia .cp input {
+    width:78px;
+    }
+*/
+#formulario_franquicia_peque .cp input, #formulario_franquicia_peque .fila_titulos .cp {
+    margin-left:5px;
+    width:111px;
+    }
+/*
+#formulario_franquicia_peque .cp input {
+    width:36px;
+    }
+*/
+#formulario_franquicia .edad input, #formulario_franquicia .fila_titulos .edad {
+    margin-left:10px;
+    width:110px;
+    }
+/*
+#formulario_franquicia .edad input {
+    width:60px;
+    }
+*/
+#formulario_franquicia_peque .edad input, #formulario_franquicia_peque .fila_titulos .edad {
+    margin-left:10px;
+    width:80px;
+    }
+/*
+#formulario_franquicia_peque .edad input {
+    width:37px;
+    }
+*/
+#formulario_franquicia .e_civil input, #formulario_franquicia .fila_titulos .e_civil {
+    margin-left:10px;
+    width:210px;
+    }
+/*
+#formulario_franquicia .e_civil input {
+    width:150px;
+    }
+*/
+#formulario_franquicia_peque .e_civil input, #formulario_franquicia_peque .fila_titulos .e_civil {
+    margin-left:5px;
+    width:150px;
+    }
+/*
+#formulario_franquicia_peque .e_civil input {
+    width:90px;
+    }
+*/
+#formulario_franquicia .estudios input, #formulario_franquicia .fila_titulos .estudios {
+    margin-left:10px;
+    width:388px;
+    }
+/*
+#formulario_franquicia .estudios input {
+    width:300px;
+    }
+*/
+#formulario_franquicia_peque .estudios input, #formulario_franquicia_peque .fila_titulos .estudios {
+    margin-left:5px;
+    width:272px;
+    }
+/*
+#formulario_franquicia_peque .estudios input {
+    width:200px;
+    }
+*/
+#formulario_franquicia .e_laboral {
+    margin-left:10px;
+    height:36px;
+    line-height:30px;
+    }
+#formulario_franquicia .e_laboral textarea {
+    /*
+    width:580px;
+    */
+    width:732px;
+    height:29px;
+    line-height:14px;
+    overflow:auto;
+    }
+#formulario_franquicia_peque .e_laboral {
+    margin-left:10px;
+    height:36px;
+    line-height:30px;
+    }
+#formulario_franquicia_peque .e_laboral textarea {
+    /*
+    width:389px;
+    */
+    width:517px;
+    height:29px;
+    line-height:14px;
+    overflow:auto;
+    }
+#formulario_franquicia .fila_titulos .e_laboral, #formulario_franquicia_peque .fila_titulos .e_laboral
+{
+    height:19px !important;
+    line-height:19px !important;
+}
+#formulario_franquicia .local input, #formulario_franquicia .fila_titulos .local, #formulario_franquicia .local select {
+    margin-left:10px;
+    width:370px;
+    }
+/*
+#formulario_franquicia .local input {
+    width:205px;
+    }
+*/
+#formulario_franquicia_peque .local input, #formulario_franquicia_peque .fila_titulos .local, #formulario_franquicia_peque .local select {
+    margin-left:10px;
+    width:251px;
+    }
+/*
+#formulario_franquicia_peque .local input {
+    width:123px;
+    }
+*/
+#formulario_franquicia .metros input, #formulario_franquicia .fila_titulos .metros, #formulario_franquicia .metros select {
+    margin-left:10px;
+    width:352px;
+    }
+/*
+#formulario_franquicia .metros input {
+    width:240px;
+    }
+*/
+#formulario_franquicia_peque .metros input, #formulario_franquicia_peque .fila_titulos .metros, #formulario_franquicia_peque .metros select {
+    margin-left:5px;
+    width:258px;
+    }
+/*
+#formulario_franquicia_peque .metros input {
+    width:155px;
+    }
+*/
+#formulario_franquicia .localidad input, #formulario_franquicia .fila_titulos .localidad {
+    margin-left:10px;
+    width:361px;
+    margin-bottom:10px;
+    }
+/*
+#formulario_franquicia .localidad input {
+    width:210px;
+    }
+*/
+#formulario_franquicia_peque .localidad input, #formulario_franquicia_peque .fila_titulos .localidad {
+    margin-left:10px;
+    width:251px;
+    margin-bottom:10px;
+    }
+/*
+#formulario_franquicia_peque .localidad input {
+    width:126px;
+    }
+*/
+#formulario_franquicia .provincia2 input, #formulario_franquicia .fila_titulos .provincia2 {
+    margin-left:10px;
+    width:361px;
+    margin-bottom:10px;
+    }
+    /*
+#formulario_franquicia .provincia2 input {
+    width:213px;
+    }
+    */
+#formulario_franquicia_peque .provincia2 input, #formulario_franquicia_peque .fila_titulos .provincia2 {
+    margin-left:5px;
+    width:258px;
+    margin-bottom:10px;
+    }
+    /*
+#formulario_franquicia_peque .provincia2 input {
+    width:125px;
+    }
+    */
+
+#formulario_franquicia_peque .fila_titulos .localidad, #formulario_franquicia_peque .fila_titulos .provincia2, #formulario_franquicia .fila_titulos .localidad, #formulario_franquicia .fila_titulos .provincia2
+{
+    margin-bottom:0px;
+}
+#formulario_franquicia .rellene, #contactar .rellene, #formulario_franquicia_peque .rellene
+{
+    margin-left:13px;
+    border:none;
+    width:480px;
+}
+#contactar .rellene
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:left;
+}
+#formulario_franquicia_peque .rellene
+{
+    width:365px;
+    margin-left:5px;
+}
+#formulario_franquicia .obligatorios, #formulario_franquicia_peque .obligatorios
+{
+    float:right;
+    border:none;
+    text-align:right;
+    margin-right:15px;
+    line-height:20px;
+}
+#formulario_franquicia_peque .obligatorios
+{
+}
+#contactar .franquicia, #contactar .persona
+{
+    margin-left:20px;
+    width:715px;
+    }
+#contactar .comentarios textarea {
+    margin-left:10px;
+    width:733px;
+    height:74px;
+    line-height:14px;
+    overflow:auto;
+    vertical-align:top;
+}
+#formulario_franquicia .boton, #contactar .boton, #formulario_franquicia_peque .boton {
+    font-size:10px;
+    font-weight:bold;
+    text-align:center;
+    width:102px;
+    height:23px;
+    line-height:23px;
+    color: #FFFFFF;
+    margin: 20px auto;
+    background: url(img/boton_enviar_form.jpg) no-repeat;
+    cursor:pointer;
+    text-decoration:underline;
+    }
+#contactar .boton {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#formulario_franquicia .boton:hover, #contactar .boton:hover, #formulario_franquicia_peque .boton:hover {
+    text-decoration:none;
+}
+#formulario_franquicia .guardar, #formulario_franquicia_peque .guardar
+{
+    margin-bottom:20px;
+    width:300px;
+    margin-left:455px;
+    margin-top:-46px;
+    position:absolute;
+    height:26px;
+    line-height:26px;
+    font-size:12px;
+    color:#5c5c5c;
+    text-align:center;
+    border-bottom:1px solid #fb9004;
+    border-left:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+#formulario_franquicia_peque .guardar
+{
+    font-size:9px;
+    margin-left:311px;
+    margin-top:-40px;
+    width:228px;
+    height:20px;
+    line-height:20px;
+}
+#contactar #tambien_contacto
+{
+    width:758px;
+    height:42px;
+    background: url(img/m_detalle_formulario.jpg) no-repeat;
+}
+#contactar #tambien_contacto p
+{
+    text-align:center;
+    font-size:12px;
+}
+/* multiformulario */
+#formulario_franquicia #multiformulario, #formulario_franquicia_peque #multiformulario {
+    clear:both;
+    width:756px;
+    border:none;
+    font-size:10px;
+    line-height:14px;
+    color:#5c5c5c;
+}
+#formulario_franquicia_peque #multiformulario {
+    width:539px;
+}
+#formulario_franquicia #multiformulario span, #formulario_franquicia_peque #multiformulario span {
+    font-size:12px;
+    font-weight:bold;
+    height:26px;
+    line-height:26px;
+    display:block;
+    text-indent:30px;
+    color:#000000;
+    font-size:11px;
+    text-align:center;
+    /*
+    background: url(img/m_formulario_destacado.png) no-repeat !important;
+    background: url(img/m_formulario_destacado.gif) no-repeat;
+    */
+    margin-top:10px;
+    margin-bottom:10px;
+}
+/*
+#formulario_franquicia_peque #multiformulario span
+{
+    font-weight:normal;
+    font-size:9px;
+    text-indent:0px;
+    text-align:center;
+    width:228px;
+    height:20px;
+    line-height:20px;
+    background: url(img/m_formulario_destacado_peque.png) no-repeat !important;
+    background: url(img/m_formulario_destacado_peque.gif) no-repeat;
+}
+*/
+#formulario_franquicia #multiformulario a, #formulario_franquicia_peque #multiformulario a {
+    clear:both;
+    display:block;
+    color:#ab3130;
+    text-decoration:underline;
+    text-align:center;
+    font-size:11px;
+}
+#formulario_franquicia #multiformulario #multi1, #formulario_franquicia_peque #multiformulario #multi1 {
+    float:left;
+    clear:left;
+    text-align:left;
+    width:176px;
+    margin:7px 0px 7px 70px !important;
+    margin-left:36px;
+    margin-right:0;
+}
+#formulario_franquicia #multiformulario #multi2, #formulario_franquicia_peque #multiformulario #multi2 {
+    float:right;
+    clear:right;
+    text-align:left;
+    width:176px;
+    margin:7px 70px 7px 0px !important;
+    margin-left:0px;
+    margin-right:0px;
+    padding-right:0 !important;
+    padding-right:68px;
+}
+#formulario_franquicia #multiformulario li, #formulario_franquicia_peque #multiformulario li {
+    clear:both;
+    width:176px;
+}
+#formulario_franquicia #multiformulario input, #formulario_franquicia_peque #multiformulario input {
+    border:none;
+}
+#formulario_franquicia table, #formulario_franquicia_peque table
+{
+    margin: 20px auto;
+}
+#formulario_franquicia #multiformulario td {
+    height:auto;
+    width:auto;
+}
+/* multiformulario */
+/* Proteccion datos*/
+#formulario_franquicia p.texto_proteccion_datos, #contactar p.texto_proteccion_datos, #formulario_franquicia_peque p.texto_proteccion_datos
+{
+    text-align:justify;
+    font-size:9px;
+    margin:16px 20px;
+    color:#5c5c5c;
+}
+#formulario_franquicia p.texto_proteccion_datos input, #contactar p.texto_proteccion_datos input, #formulario_franquicia_peque p.texto_proteccion_datos input
+{
+    width:13px;
+    height:13px;
+    border:none;
+    vertical-align:middle;
+}
+#formulario_franquicia p.texto_proteccion_datos a, #contactar p.texto_proteccion_datos a, #formulario_franquicia_peque p.texto_proteccion_datos a
+{
+    color:#5c5c5c;
+    text-decoration:underline;
+}
+/* Proteccion datos*/
+
+#leyes h3, #leyes h1
+{
+    margin-left:15px;
+    width:758px;
+    height:22px;
+    line-height:22px;
+    background: url(img/m_encabezado_ficha.jpg) no-repeat;
+    color:#ffffff;
+    font-size:12px;
+    text-indent:17px;
+    text-align:left;
+    font-weight:bold;
+}
+#contenido_leyes {
+    padding:20px 0;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:15px;
+    float:left;
+    width: 756px;
+    text-align: center;
+    background: #FFFFFF;
+    border:1px solid #c6c6c6;
+    -moz-border-radius:14px;
+    border-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    }
+#contenido_leyes p {
+    font-size:12px;
+    padding:8px 26px;
+    text-indent:0;
+    text-align:justify;
+    color:#5c5c5c;
+    }
+
+
+#contenido_leyes #contenido_scroll
+{
+    margin:8px 0px 8px 0px;
+    height:1002px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top_logos_estrella h3 a, #top_logos_estrella h3, #top_div_grande h3 a, #top_div_grande h3 , #top_div_grande h3 {
+    padding:1px;
+    text-align: center;
+    font-size:10pt;
+    color: #ffffff;
+    }
+
+
+
+#contenido_franquicia img {
+    margin-left: 8px;
+    margin-right: 4px;
+    }
+
+.mas_noticias {
+    text-align:right;
+    padding: 8px 14px;
+    clear: both;
+    }
+.mas_noticias a:link, .mas_noticias a:visited {
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+.mas_noticias a:hover {
+    text-decoration:underline;
+    }
+.entrevistas {
+    width: 400px;
+    float: left;
+    }
+.entrevistas h4 a {
+    font-size: 10pt;
+    color: black;
+    }
+#entrevista_izq h3 {
+    margin-right:91px;
+    padding-top:1px;
+    color: #FFFFFF;
+    font-size:11px;
+    text-align: center;
+    width:184px;
+    background: url(img/titulo_entre_izq.png) no-repeat;
+    }
+#entrevista_der h3 {
+    margin-left:91px;
+    padding-top:1px;
+    color: #FFFFFF;
+    font-size:11px;
+    text-align: center;
+    width:184px;
+    background: url(img/titulo_entre_der.png) no-repeat;
+    }
+#entrevista_izq {
+    width:275px;
+    float:left;
+    margin-left: 1px !important;
+    }
+#entrevista_der {
+    width:275px;
+    float:right;
+    margin-bottom:16px !important;
+    margin-bottom:3px;
+    margin-right: 2px !important;
+    margin-right: 1px;
+    }
+#entrevista_der div {
+    background: url(img/fondo_entre_der.png) no-repeat;
+    height: 115px;
+    }
+#entrevista_izq div {
+    background: url(img/fondo_entre_izq.png) no-repeat;
+    height: 115px;
+    }
+#entrevista_izq h4 , #entrevista_der h4 {
+    color:#000000;
+    font-size:13px;
+    padding-top:30px;
+    }
+#entrevista_izq span , #entrevista_der span {
+    color:#000000;
+    font-size:12px;
+    padding-top:5px;
+    }
+#entrevista_der .leer_mas {
+    text-align:left;
+    margin-top:8px;
+    padding: 8px;
+    }
+#entrevista_izq .leer_mas {
+    text-align:right;
+    margin-top:8px;
+    padding: 8px;
+    }
+.leer_mas a:link, .leer_mas a:visited {
+    font-size:9pt;
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+.leer_mas a:hover {
+    text-decoration:underline;
+    }
+#entrevista_der div img {
+    margin-right:3px;
+    margin-top:3px;
+    float:right;
+    }
+#entrevista_izq div img {
+    margin-left:3px;
+    margin-top:3px;
+    float:left;
+    }
+#franquicia_actualidad {
+    margin: 0 auto;
+    padding: 0;
+    width: 559px;
+    text-align: center;
+    clear:both;
+    }
+#franquicia_actualidad table {
+    margin: 0 auto;
+    border-collapse:collapse;
+    width: 100%;
+    vertical-align:middle;
+    background: url(img/fondo_actualidad.png) no-repeat;
+    }
+#franquicia_actualidad h4 {
+    margin:5px 4px 0 4px;
+    color: #000;
+    font-size:11px;
+    text-align: center;
+    background: transparent url(img/h4_actualidad.gif) no-repeat top left;
+    }
+#franquicia_actualidad td {
+    font-size:10pt;
+    text-align:justify;
+    }
+#franquicia_actualidad h3 {
+    margin-left:309px;
+    padding-top:1px;
+    color: #FFFFFF;
+    font-size:11px;
+    text-align: center;
+    width:250px;
+    background: url(img/titulo_franquicia_actualidad.png) no-repeat;
+    }
+#franquicia_actualidad td img {
+    padding:0px;
+    margin:2px;
+    margin-bottom: -2px;
+    }
+#franquicia_actualidad td a, .fondo_actualidad a {
+    color:black;
+    padding:0px;
+    margin:0px;
+    }
+#franquicia_actualidad .celda_i {
+    padding:6px;
+    width: 440px;
+    height: 90px;
+    }
+#franquicia_actualidad .celda_d {
+    padding:0px;
+    }
+ul, li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+a {
+    text-decoration: none;
+    color:#a50c0f;
+    }
+a:hover
+{
+    color:#444444;
+}
+
+
+.centrar_img img
+{
+    float:none;
+    margin:8px auto !important;
+    }
+.listado_entrevistas p {
+    font-weight:bold;
+    font-size:13pt;
+    color:red;
+}
+
+
+#entrevistas_izq h4 a, #entrevistas_der h4 a {
+    font-size: 10pt;
+    color: black;
+    }
+#entrevistas_izq h4, #entrevistas_der h4 {
+    background:white;
+    }
+#entrevistas_izq h3 {
+    margin-right:91px;
+    padding-top:1px;
+    color: #FFFFFF;
+    font-size:11px;
+    text-align: center;
+    width:184px;
+    background: url(img/titulo_entre_izq.png) no-repeat;
+    }
+#entrevistas_der h3 {
+    margin-left:76px;
+    padding-top:1px;
+    color: #FFFFFF;
+    font-size:11px;
+    text-align: center;
+    width:184px;
+    background: url(img/titulo_entre_der.png) no-repeat;
+    }
+#entrevistas_izq {
+    width:260px;
+    float:left;
+    margin-bottom:2px;
+    }
+#entrevistas_der {
+    width:260px;
+    float:right;
+    margin-bottom:2px;
+    }
+#entrevistas_der div {
+    background: url(img/fondo_entres_der.png) no-repeat;
+    height: 115px;
+    }
+#entrevistas_izq div {
+    background: url(img/fondo_entres_izq.png) no-repeat;
+    height: 115px;
+    }
+#entrevistas_izq h4 , #entrevistas_der h4 {
+    color:#000000;
+    font-size:13px;
+    padding-top:30px;
+    background:transparent;
+    }
+#entrevistas_izq span , #entrevistas_der span {
+    color:#000000;
+    font-size:12px;
+    padding-top:5px;
+    }
+#entrevistas_der .leer_mas {
+    text-align:left;
+    margin-top:8px;
+    padding: 8px;
+    text-indent:0px;
+    }
+#entrevistas_izq .leer_mas {
+    text-align:right;
+    margin-top:8px;
+    padding: 8px;
+    }
+#entrevistas_der div img {
+    margin-right:3px;
+    margin-top:3px;
+    float:right;
+    }
+#entrevistas_izq div img {
+    margin-left:3px;
+    margin-top:3px;
+    float:left;
+    }
+#pages {
+    padding:7px 0;
+    width:542px;
+    margin:12px auto 15px;
+    color:black;
+    font-size:12px;
+    position:relative;
+    border:1px solid #ff9900;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);   
+    }
+#pages a, #pages a:visited, #pages a:active {
+    text-align:center;
+    padding:7px 5px;
+    color:black;
+    text-decoration:underline;
+    }
+#pages a:hover {
+    text-align:center;
+    color:#ffffff;
+    text-decoration:underline;
+    padding:7px 5px;
+    background: url(img/m_selecion_pag_over.jpg) repeat-x;
+    }
+#pages strong
+{
+    text-align:center;
+    color:#ffffff;
+    text-decoration:underline;
+    padding:7px 5px;
+    background: url(img/m_selecion_pag_over.jpg) no-repeat;
+}
+#pages span
+{
+    text-align:center;
+    padding:7px 3px;
+}
+#pages span.ver
+{
+    padding-right:35px;
+}
+#titulo_noticia{
+    position:relative;
+    top:50px;
+    left:5px;
+    width:500px;
+    text-align:center;
+    float: left;
+    color:black;
+    font-size:10pt;
+    font-weight:bold;
+    }
+#titulo_noticia2{
+    text-align:center;
+    color:black;
+    font-size:10pt;
+    font-weight:bold;
+    }
+#publicidad_inferior {
+    border-top:1px solid #FF9900;
+    height:100px;
+    clear:both;
+    margin:0 3px;
+}
+.publi2 {
+    width:237px;
+    text-align:right;
+    margin-top:7px;
+    margin-left:5px !important;
+    margin-left:2px;
+    height:90px;
+    float:left;
+}
+.net {
+    width:738px;
+    text-align:right;
+    margin-top:7px;
+    margin-right:5px !important;
+    margin-right:2px;
+    height:90px;
+    float:right;
+}
+.publi {
+    background:#d0d0d0 url(error.html) center left no-repeat;
+}
+#mas_noticias {
+    margin: 0 auto;
+    padding: 0;
+    /* width: 557px !important; */
+    width:559px;
+    text-align: center;
+    clear:both;
+    border-bottom:1px solid #d8261c;
+    background: url(error.html) repeat-y;
+}
+#mas_noticias ul {
+    padding:4px;
+}
+#mas_noticias li {
+    font-size:11px;
+    text-align: center;
+}
+#mas_noticias li a, #mas_noticias li a:visited {
+    color: #000;
+    font-weight:bold;
+}
+#mas_noticias li a:hover {
+    color:gray;
+}
+#insertarfranquiciaindex {
+    margin:4px auto;
+    width:197px;
+    height:117px !important;
+    height:131px;
+    text-align:center;
+    margin-top:19px;
+    border: 1px solid #d8261c;
+}
+#insertarfranquiciaindex img {
+    margin-top:20px !important;
+    margin-top:27px;
+}
+/* barra desplazamiento */
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 21px;
+	height: 100%;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 21px;
+    display:none;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #7db6e1;
+	position: relative;
+	background: url(img/m_barra_scroll.jpg) no-repeat center center;
+}
+#contenido_leyes .jspTrack
+{
+	background: url(img/m_barra_scroll.jpg) repeat-y center center;
+}
+.jspDrag
+{
+	background: url(img/m_bola_scroll.png) no-repeat 3px center !important;
+	background: url(img/m_bola_scroll.gif) no-repeat 3px center;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrowUp
+{
+	background: url(img/m_flecha_vertical_arriba.jpg) no-repeat center;
+}
+.jspArrowDown
+{
+	background: url(img/m_flecha_vertical_abajo.jpg) no-repeat center;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+/* barra desplazamiento */
+#contenido_noticia, .todas_las
+{
+    color:#5c5c5c;
+    clear:both;
+    margin:0px auto 25px;
+    text-align:justify;
+    width:756px;
+    font-size:12px;
+}
+#contenido_noticia ul
+{
+    list-style-type:disc !important;
+    list-style-position:outside;
+    padding-top:8px;
+    padding-left:22px;
+    padding-right:8px;
+}
+#contenido_noticia li
+{
+    text-align:justify;
+    list-style-type:disc !important;
+    padding-bottom:8px;
+}
+#contenido_noticia p
+{
+    padding-bottom:8px;
+}
+#contenido_noticia img
+{
+    width:240px;
+}
+.todas_las
+{
+    text-indent:20px;
+}
+.todas_las a
+{
+    color:#5c5c5c;
+}
+.todas_las a:hover
+{
+    text-decoration:underline;
+}
+#tabla_not1
+{
+    margin-top:7px;
+    width:520px;
+    float:left;
+    margin-left:15px;
+    margin-bottom:25px;
+    border-collapse:collapse;
+}
+#tabla_not2
+{
+    margin-top:7px;
+    width:756px;
+    margin-left:15px;
+    margin-bottom:25px;
+    border-collapse:collapse;
+}
+#titulo_not
+{
+    height:187px;
+    color:#000000;
+    font-weight:bold;
+    font-size:22px;
+    vertical-align:middle;
+    text-align:justify;
+}
+#titulo_not h1
+{
+    font-size:22px;
+}
+#fecha_not
+{
+    height:20px;
+    line-height:20px;
+    font-weight:bold;
+    font-size:13px;
+    border-top:1px solid #ea4e1d;
+    border-bottom:1px solid #ea4e1d;
+    text-align:left;
+    text-indent:3px;
+}
+#logo_noticia {
+    margin-top:13px;
+    margin-right:12px;
+    float:right;
+    text-align:center;
+    width:213px;
+    height:200px;
+    border:1px solid #fb9004;
+    -moz-border-radius-bottomleft:14px;
+    border-bottom-left-radius:14px;
+    -moz-border-radius-topleft:14px;
+    border-top-left-radius:14px;
+    -moz-border-radius-topright:14px;
+    border-top-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);   
+}
+#logo_noticia #logo
+{
+    height:160px;
+}
+#logo_noticia #logo a img
+{
+    margin-bottom:-4px;
+}
+#logo_noticia #ver_ficha_de
+{
+    height:20px;
+    text-indent:25px;
+    text-align:left;
+}
+#logo_noticia #ver_ficha_de2
+{
+    height:20px;
+    text-align:center;
+}
+#logo_noticia #ver_ficha_de a, #logo_noticia #ver_ficha_de2 a
+{
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+}
+#logo_noticia #ver_ficha_de2 a
+{
+    text-decoration:underline;
+}
+#logo_noticia table
+{
+    width:213px;
+    vertical-align:middle;
+    text-align:center;
+    border-collapse:collapse;
+    background: url(img/m_fondo_ir_a_ficha_franquicia.png) no-repeat bottom !important;
+    background: url(img/m_fondo_ir_a_ficha_franquicia.gif) no-repeat bottom;
+}
+#icono_mas_noticia
+{
+    position:absolute;
+    z-index:99;
+    margin-top:185px;
+    margin-left:4px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+.encabezado_articulo
+{
+    text-indent:90px !important;
+}
+h6#dibujo_articulo
+{   
+    z-index:99;
+    margin-left:37px;
+    margin-top:-42px;
+    position:absolute;
+    width:50px;
+    height:45px;
+    background: url(img/m_icono_articulo.png) no-repeat !important;
+    background: url(img/m_icono_articulo.gif) no-repeat;
+}
+#noticias_index h3#h3_entrevistas, #noticias_index h1#h3_entrevistas
+{
+    background: url(img/m_encabezado_articulo_sectorial2.jpg) no-repeat;
+}
+#centro_izquierda #entrevista_izquierda, #centro_izquierda #entrevista_derecha
+{
+    margin-bottom:10px;
+}
+#mas_entrevistas
+{
+    text-align:left;
+    margin-left:10px;
+    clear:both;
+}
+#mas_entrevistas li
+{
+    background: url(img/punto_entrevistas.jpg) no-repeat left center;
+    line-height:20px;
+    text-indent:13px;
+    font-size:11px;
+}
+#mas_entrevistas li a
+{
+    color:#3C3C3C;
+    text-decoration:underline;
+}
+#foto_entrevistado {
+    float:left;
+    margin-top:40px;
+    margin-left:15px;
+    margin-bottom:48px;
+    text-align:center;
+    width:340px;
+    height:150px;
+    background: url(img/m_nombre_entrevistada.jpg) no-repeat left bottom;
+    border-collapse:collapse;
+    font-size:12px;
+    text-align:left;
+}
+#foto_entrevistado img 
+{
+    margin-bottom:-3px;
+    background:#ffffff;
+    padding:2px;
+    border:1px solid #fb9004;
+    -moz-border-radius:16px;
+    border-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);    
+}
+#icono_mas_entrevista
+{
+    position:absolute;
+    z-index:99;
+    margin-top:185px;
+    margin-left:94px;
+    height:24px;
+    width:24px;
+    background: url(img/m_icono_mas.png) no-repeat !important;
+    background: url(img/m_icono_mas.gif) no-repeat;
+}
+#foto_e
+{
+    height:150px;
+    width:130px;
+    vertical-align:bottom;
+}
+#cargo_e
+{
+    color:#ffffff;
+    vertical-align:middle;
+}
+#nombre_e
+{
+    color:#000000;
+    font-weight:bold;
+    height:136px;
+    vertical-align:bottom;
+    line-height:24px;
+}
+#reproductor
+{
+    margin-left:10px;
+    margin-top:12px;
+}
+
+
+
+#jqDialog_box {
+    z-index:999;
+    width:451px;
+    height:251px;
+    background: url(img/m_pop_up-peru.png) no-repeat top left !important;
+    background: url(error.html) no-repeat top left;
+	position: absolute;
+}
+#jqDialog_content {
+    color:black;
+    text-align:center;
+    font-size:14px;
+    padding-top:90px;
+    overflow: hidden;
+}
+
+#jqDialog_options button#jqDialog_yes {
+    width:126px;
+    height:29px;
+    background:url(img/m_boton_aceptar.png) no-repeat bottom center !important;
+    background:url(img/m_boton_aceptar.gif) no-repeat bottom center;
+    text-align:center;
+    color:#ffffff;
+    font-size:13px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:25px 0 0 210px;
+    text-decoration:underline;
+}
+#jqDialog_options button#jqDialog_yes:hover {
+    text-decoration:none;
+}
+
+#jqDialog_options button#jqDialog_no {
+	position:absolute;
+	top:11px;
+	right:13px;
+	width:27px;
+	height:27px;
+	background: none;
+	border: none;
+	font-weight: bold;
+	font-size: 1px;
+	color: red;
+	cursor: pointer;
+	background:url(img/m_boton_cerrar.png) no-repeat bottom center !important;
+	background:url(img/m_boton_cerrar.png) no-repeat bottom center;
+}
+
+
+#jqDialog_close {
+	width:27px;
+	height:27px;
+	background: none;
+	border: none;
+	float: right;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ff0000;
+	cursor: pointer;
+	background:url(img/m_boton_cerrar.png) no-repeat bottom center !important;
+	background:url(img/m_boton_cerrar.png) no-repeat bottom center;
+}
+.sobre_pie
+{
+    clear:both;
+    margin:10px 7px;
+    padding:10px 0;
+    text-indent:10px;
+    text-align:justify;
+    border-left:1px solid #fb9004;
+    border-right:1px solid #fb9004;
+    border-bottom:1px solid #fb9004;
+    border-top:1px solid #fb9004;
+    -moz-border-radius-topleft:16px;
+    border-top-left-radius:16px;
+    -moz-border-radius-topright:16px;
+    border-top-right-radius:16px;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+.sobre_pie h1, .sobre_pie h2
+{
+    font-size:11px;
+    color:#000000;
+    display:inline;
+}
+.sobre_pie p
+{   
+    margin-top:7px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size:11px;
+    color:#000000;
+}
+#desc_categoria
+{
+    margin-top:15px;
+     color: #6d6d6d;
+    text-align: justify;
+}
+#desc_extra p
+{
+    padding:0 8px !important;
+}
+#desc_extra
+{
+    margin-bottom:6px;
+}
+/* Directorio - Subsectores */
+.btn_subsectores div {
+    background: url(img/fondo_sector.png) no-repeat left top!important;
+    background: url(img/fondo_sector.gif) no-repeat left top ;
+    text-indent:13px;
+    font-size:12px;
+    letter-spacing:-0.5px;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: -1px;
+    padding: 0px;
+    text-decoration:none;
+    display:block;
+    width:198px;
+    height:19px;
+    line-height:19px;
+    /*color: #8b8b8b;*/
+    color:#000000;
+    font-weight: normal;
+    border:1px solid #fb9004;
+    background: #ffffff;
+    -moz-border-radius-topright:14px;
+    border-top-right-radius:14px;
+    -moz-border-radius-bottomright:14px;
+    border-bottom-right-radius:14px;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+    cursor: pointer;
+}
+.btn_subsectores div{
+    width:213px !important;
+}
+.btn_subsectores div:hover {
+    background: #eb651c url(img/fondo_sector.png) no-repeat left bottom!important;
+    background: #eb651c url(img/fondo_sector.gif) no-repeat left bottom ;
+}
+.btn_subsectores div:hover {
+    color: #FFFFFF;
+    background: #eb651c url(img/fondo_sector2.png) no-repeat left bottom!important;
+    background: #eb651c url(img/fondo_sector2.gif) no-repeat left bottom ;
+}
+
+#col_d .subsectores{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/* Fin Directorio - Subsectores */
+
+/* Politica cookies */
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 25px;
+    width: 100%;
+    text-align:center;
+    /*background-color: #FA8B07;
+    opacity: 0.9;
+    filter: alpha(opacity=90);*/
+    background: url("img/pixel-naranja.png") repeat center 0;
+}
+#infobox3 p {
+    line-height:28px;
+    font-size:12px;
+    text-align:center;
+    color: #000;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+/* Fin Politica Cookies */
+
+/* Buscador noticias */
+#col_buscador_not{
+    float:left;    
+    width:93px;
+    height:145px;
+    background: url(img/img_izq_buscador_noticias.jpg) no-repeat center 0;
+}
+#col_buscador_not2{
+    float:left;    
+    width:356px;
+    height:145px;
+    background-color:#bd1924;    
+}
+#col_buscador_not3{
+    float:left;    
+    width:93px;
+    height:145px;
+    background: url(img/img_dcha_buscador_noticias.jpg) no-repeat center 0;
+}
+#contenedor_buscador_noticias{
+    width: 542px;
+    /*height: 90px;*/
+    height: 145px;
+    position: relative;
+    margin: 0 auto 25px; 
+}
+#contenedor_buscador_noticias input{
+    color:#2e6079;
+    /*width:160px;*/
+    width:220px;
+    height:20px;
+    line-height:20px;
+    margin:10px 10px 0px 0px;    
+    font-size:10px;
+    float:left;
+    padding-left: 5px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;    
+}
+#contenedor_buscador_noticias select{
+    color:#2e6079;
+    /*width:160px;*/
+    width:220px;
+    height:20px;
+    line-height:20px;
+    margin:10px 10px 0px 0px;    
+    font-size:10px;
+    float:left;
+    padding-left: 5px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;   
+    background-color:#fff !important; 
+}
+#contenedor_buscador_noticias input.boton{
+    float: left;
+    margin: 15px 0 0 22px;    
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;    
+    text-decoration: underline;
+    cursor:pointer;
+    width: 90px;
+    height: 51px;
+    line-height: 30px; 
+    /*background: url(img/m_flecha.jpg) no-repeat 0px 1px;
+    background: url(img/btn-buscador.png) no-repeat center 0;*/
+    background-color: #f07f09; 
+    font-family: "Century Gothic", sans-serif;
+    border: none;
+    outline: none;
+    -moz-border-radius-topright: 2px;
+    border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    border-top-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    border: 1px solid #fff;
+}
+#contenedor_buscador_noticias input.boton:hover{
+    text-decoration:none;
+}
+#columnas_buscador_not{
+    width: 542px;
+    height: 145px;
+    position: relative;
+    /*margin: 10px 0 0 17px;*/
+}
+#contenedor_txt_buscador_noticias{
+    width: 333px;
+    padding: 5px 0;
+    position: relative;
+    margin: 5px auto 0px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #fff;
+}
+#contenedor_txt_buscador_noticias span{
+    font-size: 11px;
+    font-weight: normal;
+}
+#tit_buscador_noticias{
+    width: 148px;
+    margin: 5px 0 0 10px;
+}
+#tit_buscador_noticias span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+#contenedor_combos_noticias{
+    float: left;
+    width: 220px;
+    margin: 5px 0 0 10px;      
+}
+#resultados_buscador_noticias{
+    width: 542px;
+    margin: 0 auto;
+}
+#resultados_buscador_noticias h3{   
+    background: url(img/m_encabezado_noticias.jpg) no-repeat;
+    width: 542px;
+    height: 22px;
+    line-height: 22px;   
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    text-indent: 13px;
+}
+/* Fin buscador noticias */
